@@ -3,11 +3,14 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImages from "../assets/react.png";
+import mongo from "../assets/mongo.png";
+import nextjs from "../assets/nextjs.png";
+import node from "../assets/node.png";
+
+
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png"
-import mongo from "../assets/mongo.png";
-import nextjs from "../assets/nextjs.png"
-import node from "../assets/node.png"
+
 const Technologies = () => {
   const techs = [
     {
@@ -55,7 +58,6 @@ const Technologies = () => {
       title:'Nodejs',
       style:'shadow-green-600'  
     },
-  
     {
       id:8,
       src:nextjs,
@@ -93,3 +95,4 @@ const Technologies = () => {
 }
 
 export default Technologies
+
