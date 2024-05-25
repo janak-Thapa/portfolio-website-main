@@ -53,20 +53,20 @@ const Technologies = () => {
       id:7,
       src:node,
       title:'Nodejs',
-      style:'shadow-sky-400'  
+      style:'shadow-green-600'  
     },
   
     {
       id:8,
       src:nextjs,
       title:'Nextjs',
-      style:'shadow-sky-400'
+      style: "shadow-white",
     },
     {
       id:9,
       src:mongo,
       title:'Mongodb',
-      style:'shadow-sky-400'
+      style:'shadow-green-400'
     },
   ]
   return (
