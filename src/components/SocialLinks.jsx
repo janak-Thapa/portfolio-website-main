@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {FaGithub,FaLinkedin} from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi";
 import {BsFillPersonLinesFill} from "react-icons/bs";
@@ -42,7 +42,7 @@ const SocialLinks = () => {
        Resume <BsFillPersonLinesFill size={30}/>
         </>
       ),
-      href:'/resume.pdf',
+      href:'/JANAK_RESUME(1).pdf',
       style:'rounded-br-md',
       download:true,
     },
