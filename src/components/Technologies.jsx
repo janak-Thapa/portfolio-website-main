@@ -6,6 +6,7 @@ import reactImages from "../assets/react.png";
 import mongo from "../assets/mongo.png";
 import nextjs from "../assets/nextjs.png";
 import node from "../assets/node.png";
+import typescript from "../assets/typescript.png"
 
 
 import github from "../assets/github.png";
@@ -69,6 +70,12 @@ const Technologies = () => {
       src:mongo,
       title:'Mongodb',
       style:'shadow-green-400'
+    },
+    {
+      id:10,
+      src:typescript,
+      title:'TypeScript',
+      style:'shadow-blue-400'
     },
   ]
   return (
