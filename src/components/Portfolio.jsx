@@ -18,7 +18,7 @@ const Portfolio = () => {
       id: 2,
       title: "AI Voice Chat Assistant",
       src: AIVoiceChatAssistant,
-      demoUrl: "https://ai-voice-assistant-sigma.vercel.app/",
+      demoUrl: "https://ai-voice-chat-assistant.vercel.app/",
       codeUrl: "https://github.com/janak-Thapa/AI-Voice-Assistant"
     },
     {
