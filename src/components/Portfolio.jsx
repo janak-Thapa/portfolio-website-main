@@ -4,39 +4,47 @@ import gemini from "../assets/portfolio/gemini.png";
 import ecommerce from "../assets/portfolio/ecommerce.png";
 import AIVoiceChatAssistant from "../assets/portfolio/AIVoiceChatAssistant.png";
 import AIContentGenerator from "../assets/portfolio/AIContentGenerator.png"
+import AiImageGenerator from "../assets/portfolio/AiImageGenerator.png"
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      title: "AI Image Generator",
+      src: AiImageGenerator,
+      demoUrl: "https://imagify-black.vercel.app/",
+      codeUrl: "https://github.com/janak-Thapa/Imagify"
+    },
+    {
+      id: 2,
       title: "AI Content Generator",
       src: AIContentGenerator,
       demoUrl: "https://ai-genie-wtcv.vercel.app/",
       codeUrl: "https://github.com/janak-Thapa/AI-Genie"
     },
     {
-      id: 2,
+      id: 3,
       title: "AI Voice Chat Assistant",
       src: AIVoiceChatAssistant,
       demoUrl: "https://ai-voice-chat-assistant.vercel.app/",
       codeUrl: "https://github.com/janak-Thapa/AI-Voice-Assistant"
     },
     {
-      id: 3,
+      id: 4,
       title: "Game Hub",
       src: gamehub,
       demoUrl: 'https://game-hub-nine-ruby-17.vercel.app/',
       codeUrl: 'https://github.com/janak-Thapa/GameHub'
     },
     {
-      id: 4,
+      id: 5,
       title: "Gemini Clone",
       src: gemini,
       demoUrl: 'https://gemini-clone-gamma.vercel.app/',
       codeUrl: 'https://github.com/janak-Thapa/Gemini-clone'
     },
     {
-      id: 5,
+      id: 6,
       title: "Ecommerce",
       src: ecommerce,
       demoUrl: 'https://ecommerce-one-rose.vercel.app/',
