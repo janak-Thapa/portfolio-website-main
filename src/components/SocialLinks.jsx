@@ -2,6 +2,7 @@
 import {FaGithub,FaLinkedin} from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi";
 import {BsFillPersonLinesFill} from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
 
 const SocialLinks = () => {
   const links = [
@@ -29,6 +30,16 @@ const SocialLinks = () => {
       id:3,
       child:(
         <>
+        X <FaXTwitter size={30}/>
+        </>
+      ),
+      href:'https://x.com/indie_yogesh',
+    
+    },
+    {
+      id:4,
+      child:(
+        <>
         Mail <HiOutlineMail size={30}/>
         </>
       ),
@@ -36,7 +47,7 @@ const SocialLinks = () => {
     
     },
     {
-      id:4,
+      id:5,
       child:(
         <>
        Resume <BsFillPersonLinesFill size={30}/>
